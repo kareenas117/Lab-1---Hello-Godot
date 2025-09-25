@@ -1,0 +1,154 @@
+[gd_scene load_steps=6 format=3 uid="uid://c3ynq1f6lr5oo"]
+
+[ext_resource type="Texture2D" uid="uid://dj8pr5t71snwr" path="res://tree-2027899_1280.webp" id="1_jj5uq"]
+[ext_resource type="Texture2D" uid="uid://dbrv4cbeet308" path="res://1w2rgJ0Pj8W.png" id="2_1ryye"]
+[ext_resource type="Texture2D" uid="uid://dya4gtkfqm2b4" path="res://tied-arch-bridge-with-railings-on-isolated-background-side-view-png.png" id="3_d5gho"]
+[ext_resource type="Texture2D" uid="uid://wnj23k51f6g7" path="res://20104-2.png" id="4_1lc7j"]
+[ext_resource type="Texture2D" uid="uid://bryc5bu2lqgby" path="res://elegant-creative-stone-pathway-in-park-isolated-element-png.png" id="5_41vej"]
+
+[node name="Main Scene" type="Node2D"]
+position = Vector2(422, 634)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -411.0
+offset_top = -620.0
+offset_right = 2134.0
+offset_bottom = 1213.0
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = -427.0
+offset_top = -614.0
+offset_right = 2142.0
+offset_bottom = 393.0
+color = Color(0.4007601, 0.680765, 0.8494839, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect2"]
+layout_mode = 0
+offset_left = 687.0
+offset_top = 1001.0
+offset_right = 1318.0
+offset_bottom = 1836.0
+color = Color(0.20264837, 0.5584394, 0.8506778, 1)
+metadata/_edit_group_ = true
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+offset_left = 1261.0
+offset_top = -79.0
+offset_right = 2152.0
+offset_bottom = 1215.0
+color = Color(0.36675298, 0.50868994, 0.24299988, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect3" type="ColorRect" parent="ColorRect3"]
+layout_mode = 0
+offset_left = -278.0
+offset_top = 365.0
+offset_right = 392.0
+offset_bottom = 1293.0
+color = Color(0.36675298, 0.50868994, 0.24299988, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect3" type="ColorRect" parent="ColorRect3/ColorRect3"]
+layout_mode = 0
+offset_left = -1417.0
+offset_top = 5.0
+offset_right = -795.0
+offset_bottom = 933.0
+color = Color(0.36675298, 0.50868994, 0.24299988, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+offset_left = 708.0
+offset_top = 391.0
+offset_right = 980.0
+offset_bottom = 1230.0
+color = Color(0.28174543, 0.47408265, 0.7249552, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="ColorRect4"]
+layout_mode = 0
+offset_left = -548.0
+offset_top = -1.0
+offset_right = -412.0
+offset_bottom = 835.0
+color = Color(0.28174543, 0.47408265, 0.7249552, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="ColorRect4"]
+layout_mode = 0
+offset_left = 205.0
+offset_top = -3.0
+offset_right = 296.0
+offset_bottom = 836.0
+color = Color(0.28174543, 0.47408265, 0.7249552, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="ColorRect4/ColorRect5"]
+layout_mode = 0
+offset_left = -548.0
+offset_top = -1.0
+offset_right = -412.0
+offset_bottom = 835.0
+color = Color(0.28174543, 0.47408265, 0.7249552, 1)
+
+[node name="Tree20278991280" type="Sprite2D" parent="."]
+position = Vector2(-137, 1.0000095)
+scale = Vector2(0.44439873, 0.5054687)
+texture = ExtResource("1_jj5uq")
+
+[node name="Tree20278991280" type="Sprite2D" parent="Tree20278991280"]
+position = Vector2(4949.877, -314.81622)
+scale = Vector2(0.30294415, 0.43935013)
+texture = ExtResource("1_jj5uq")
+
+[node name="Tree20278991280" type="Sprite2D" parent="Tree20278991280/Tree20278991280"]
+position = Vector2(-2738.7988, 937.19324)
+scale = Vector2(1.6836145, 0.9691849)
+texture = ExtResource("1_jj5uq")
+
+[node name="Tree20278991280" type="Sprite2D" parent="Tree20278991280/Tree20278991280/Tree20278991280"]
+position = Vector2(-1057.0104, 1348.5299)
+scale = Vector2(1.7897063, 1.9000509)
+texture = ExtResource("1_jj5uq")
+offset = Vector2(159.96191, 212.35742)
+
+[node name="Tree20278991280" type="Sprite2D" parent="Tree20278991280/Tree20278991280/Tree20278991280/Tree20278991280"]
+position = Vector2(908.6073, 982.9901)
+scale = Vector2(1.3117584, 1.8194993)
+texture = ExtResource("1_jj5uq")
+
+[node name="Tree20278991281" type="Sprite2D" parent="Tree20278991280/Tree20278991280/Tree20278991280"]
+position = Vector2(-3150.4238, 1017.1205)
+scale = Vector2(1.6836145, 0.9691849)
+texture = ExtResource("1_jj5uq")
+
+[node name="Tree20278991280" type="Sprite2D" parent="Tree20278991280/Tree20278991280/Tree20278991280/Tree20278991281"]
+position = Vector2(431.05847, 936.37994)
+scale = Vector2(0.9513465, 1.6090496)
+texture = ExtResource("1_jj5uq")
+offset = Vector2(159.96191, 212.35742)
+
+[node name="Tree20278991280" type="Sprite2D" parent="Tree20278991280/Tree20278991280/Tree20278991280/Tree20278991281/Tree20278991280"]
+position = Vector2(798.801, 819.3037)
+scale = Vector2(1.0114528, 1.4346536)
+texture = ExtResource("1_jj5uq")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="1w2RgJ0Pj8w" type="Sprite2D" parent="."]
+position = Vector2(1643, 2230)
+scale = Vector2(0.55, 0.54)
+texture = ExtResource("2_1ryye")
+
+[node name="TiedArchBridgeWithRailingsOnIsolatedBackgroundSideViewPng" type="Sprite2D" parent="."]
+position = Vector2(564.25, 79.99999)
+scale = Vector2(2.8462498, 2.33)
+texture = ExtResource("3_d5gho")
+
+[node name="201042" type="Sprite2D" parent="."]
+position = Vector2(1875, -98)
+scale = Vector2(0.434, 0.474)
+texture = ExtResource("4_1lc7j")
+
+[node name="ElegantCreativeStonePathwayInParkIsolatedElementPng" type="Sprite2D" parent="."]
+position = Vector2(-139.49998, 624.68744)
+scale = Vector2(0.63571435, 1.0251274)
+texture = ExtResource("5_41vej")
